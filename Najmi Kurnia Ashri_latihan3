@@ -1,1 +1,72 @@
-<
+<html>
+<head>
+<style>
+            body {
+              font-family: Arial, sans-serif;
+              font-size: 16px;
+              line-height: 1.5;
+            }
+            .container {
+              width: 80%;
+              margin: 0 auto;
+            }
+            .header {
+              text-align: left;
+              font-size: 20px;
+              font-weight: bold;
+              margin-bottom: 20px;
+            }
+            .content {
+              text-align: justify;
+              text-decoration: white;
+            }
+            p {
+  color: white;
+}
+
+          </style>
+    </head>
+         <body style="background-color: darkslategrey;">
+            <div class="container">
+                <div class="header">
+                    <h1 style="color: white;">Belanda dalam Peningkatan Permukaan Air Laut</h1>
+                    </div>
+                    <div id="author">
+                        <p>Oleh: <a href="https://www.instagram.com/najmi_kurnia243/" target="_blank" style="color: burlywood;">Najmi Kurnia Ashri</a></p>
+                    </div>
+                    <div class="content">
+                  <p>
+                    Perubahan iklim yang menjadi isu hangat merupakan ancaman di seluruh dunia, tidak hanya menyebabkan polusi, kenaikan permukaan air laut juga menjadi perhatian bagi beberapa wilayah di dunia. Dengan meningkatnya permukaan air laut, bukan hanya meningkatnya potensi bencana banjir, namun juga wilayah-wilayah dataran rendah yang berpotensi terendam.
+                Beberapa bagian wilayah negara yang terdampak dan berpotensi akan tenggelam mencari solusi dalam mengantisipasi akan naiknya permukaan air laut tersebut, salah satu upaya yang dilakukan ialah dengan melakukan studi banding dan juga kerja sama dengan Belanda yang dianggap ahli dalam menangani naiknya permukaan air, karena seperti yang diketahui Belanda terletak di sepanjang delta dari tiga sungai besar Eropa, dan hampir seperempat wilayahnya berada di bawah permukaan laut.   
+                Henk Ovink adalah salesman in chief yang ahli Belanda dalam bidang peningkatan air dan perubahan iklim (rising water and climate change). Selang beberapa lama, delegasi dari Jakarta, Ho Chi Minh City, New York dan New Orleans berkeliling di kota pelabuhan Rotterdam. Mereka sering kali akhirnya mempekerjakan perusahaan-perusahaan Belanda, yang mendominasi pasar global di bidang high-tech engineering and water management.
+                Hal ini karena sejak pertama kali para pemukim di negara kecil ini mulai memompa air untuk membuka lahan untuk pertanian dan rumah.
+                <br>
+                <br>
+        <img src="Images/Henk Ovink.png" width="450" height="250"><p>Sumber: <a href="https://www.waterdiplomat.org/story/2021/04/interview-water-lever-shifting-gear-climate-action" target="_blank" style="color: burlywood;">The Water Diplomat</a></p>
+        <style>
+            body {
+              font-family: Arial, sans-serif;
+              font-size: 16px;
+              line-height: 1.5;
+            }
+            .container {
+              width: 80%;
+              margin: 0 auto;
+            }
+            .header {
+              text-align: left;
+              font-size: 20px;
+              font-weight: bold;
+              margin-bottom: 20px;
+            }
+            .content {
+              text-align: justify;
+              text-decoration: white;
+            }
+            p {
+  color: white;
+}
+
+          </style>
+
+</html>
