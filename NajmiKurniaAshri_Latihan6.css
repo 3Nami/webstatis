@@ -1,23 +1,24 @@
 header {
-    background-color: wheat;
+    background-color: white
+    ;
     background-image: url(https://www.green-books.org/wp-content/themes/greenbooks/assets/img/logo.svg?v=2.1);
     background-repeat: no-repeat;
     background-size: 20%;
     background-position: left;
-    color: black;
+    color: greenyellow;
     text-align: center;
     padding: 20px;
-    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    font-family: Arial, sans-serif; 
 }
 
 body {
-    background: linear-gradient(to bottom, #afc0d3, #bd3d3d); /* Gradient biru */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-image: url(https://www.green-books.org/wp-content/uploads/2023/03/32.jpg);
     background-size: cover; 
     background-attachment: fixed;
+    text-align: justify;
 }
 
  *{
@@ -30,15 +31,14 @@ h1 {
     font-family: 'Times New Roman', Times, serif
 }
 
-#library-image {
+#GREENBOOK-image {
     display: block;
     margin: 0 auto;
     width: 750px;
-    border: 3px solid #bd3d3d;
+    border: 3px solid rgb(78, 255, 47);
     border-radius: 10px;
 }
 
-/* CSS untuk outline */
 .outline {
     outline-style: double;
     padding: 20px;
@@ -47,7 +47,7 @@ h1 {
     max-width: 600px;
     background-color: #f4f4f4;
     border-radius: 10px;
-    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    font-family: Arial, sans-serif;
     text-align: justify;
 }
 
@@ -55,7 +55,6 @@ h1 {
     font-size: 24px;
 }
 
-/* CSS untuk list */
 .list {
     outline-style: double;
     padding: 20px;
@@ -64,7 +63,7 @@ h1 {
     max-width: 600px;
     background-color: #f4f4f4;
     border-radius: 10px;
-    font-family: 'Yuji Hentaigana Akari', cursive; /* Mengubah font */
+    font-family: 'Yuji Hentaigana Akari', cursive;
 }
 
 .list h2 {
@@ -79,120 +78,103 @@ ul li {
     margin: 10px 0;
 }
 
-li satu {
+li pilar {
     cursor: help;
 }
 
-/* CSS untuk tautan dalam list */
 ul li a {
     text-decoration: none;
     color: #bd3d3d;
-    font-weight: bold; /* Teks lebih tebal */
+    font-weight: bold;
 }
 
 ul li a:hover {
     text-decoration: underline;
 }
 
-/* CSS untuk profil Perpustakaan Nasional */
-.profile {
+.kurikulum {
     margin: 20px auto;
     width: 80%;
     max-width: 600px;
-    background-color: #f4f4f4; /* Latar belakang*/
+    background-color: #f4f4f4;
     padding: 20px;
     border-radius: 10px;
-    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    font-family: Arial, sans-serif;
 }
 
-.profile h2 {
+.kurikulum h2 {
     font-size: 24px;
 }
 
-/* CSS untuk kotak*/
 .box-model {
-    border: 2px solid #bd3d3d;      
+    border: 2px solid greenyellow;      
     padding: 20px;
-    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    font-family: Arial, sans-serif;
 }
 
-/* CSS untuk tabel (Informasi Lantai yang berada di Perpusnas) */
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px auto;
-    text-align: center; /* Menengahkan isi tabel */
-    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    text-align: center;
+    font-family: Arial, sans-serif;
     
 }
 
 table thead {
-    background-color: #bd3d3d;
+    background-color: green;
     color: #fff;
 }
 
 table th, table td {
-    border: 1px solid #bd3d3d;
+    border: 1px solid green;
     padding: 8px;
+    text-align: justify;
 }
 
-/* CSS (Tata Cara Menjadi Anggota) */
-.membership {
+.pelatihan {
     margin: 20px auto;
     width: 80%;
     max-width: 600px;
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 10px;
-    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    font-family: Arial, sans-serif;
 }
 
-.membership h2 {
+.pelatihan h2 {
     font-size: 24px;
 }
 
-/* CSS (Tata Cara Meminjam Buku) */
-.borrowing {
+.hadiah {
     margin: 20px auto;
     width: 80%;
     max-width: 600px;
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 10px;
-    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    font-family: Arial, sans-serif;
 }
 
-.borrowing h2 {
-    font-size: 24px;
-}
-
-/* CSS (Info Lantai-lantai yang ada di Perpusnas) */
-.floors {
-    margin: 20px auto;
-    width: 80%;
-    max-width: 600px;
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 10px;
-    font-family: Arial, sans-serif; /* Mengubah font ke Arial */   
-}
-
-.floors h2 {
+.hadiah h2 {
     font-size: 24px;
 }
 
 .footer {
-    background-color: #bd3d3d;
+    background-color: rgb(2,0,36);
     padding-bottom: 4%;
     text-align: center;
     color: white;
     padding: 3px;
-    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    font-family: Arial, sans-serif;
 }
 
-/* CSS ICON*/
+i a {
+    color: white;
+    font-size: 25px;
+}
 .Youtube {
-    font-size: 30px;
+    font-size: 60px;
     color: red;
     text-align: center;
     margin-right: 10px;
