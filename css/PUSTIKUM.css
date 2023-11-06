@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: "Merriweather", "san-serif";
+  font-family: "Merriweather", sans-serif;
   background-color: var(--bg);
   color: white;
 }
@@ -67,7 +67,7 @@ body {
   color: var(--primary);
 }
 
-#versi-HP {
+#hamburger-menu {
   display: none;
 }
 
@@ -81,21 +81,21 @@ body {
 }
 
 /* Tablet */
-@media (max-width: 758px) {
+@media (max-width: 767px) {
   html {
     font-size: 62.5%;
   }
-  #versi-HP {
+  #hamburger-menu {
     display: inline-block;
   }
   .navbar .navbar-nav {
     position: absolute;
     top: 100%;
-    right: -0;
+    right: -100%;
     background-color: rgba(0, 0, 0, 0.7);
     width: 30rem;
     height: 100vh;
-    transition: 0.3s;
+    transition: 0.4s;
   }
   .navbar .navbar-nav.active {
     right: 0;
