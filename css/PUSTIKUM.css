@@ -1,6 +1,6 @@
 :root {
   --primary: rgb(122, 196, 31);
-  --bg: #38ef7d;
+  --bg: #a8ff78;
 }
 
 * {
@@ -17,6 +17,7 @@ body {
   font-family: "Merriweather", sans-serif;
   background-color: var(--bg);
   color: white;
+  min-height: 2000px;
 }
 
 /* Navbar */
@@ -25,8 +26,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 5%;
-  background-color: #a8ff78;
-  border-bottom: 1px solid greenyellow;
+  background-color: var(--bg);
+  border-bottom: 1px solid white;
   position: fixed;
   top: 0;
   left: 0;
@@ -71,6 +72,115 @@ body {
   display: none;
 }
 
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  bottom: 0;
+  background-image: linear-gradient(
+    0deg,
+    #a8ff78 3%,
+    rgba(255, 255, 255, 0) 30%
+  );
+}
+
+.hero .content {
+  padding: 1.4rem 5%;
+  max-width: 60rem;
+}
+
+.hero .content h1 {
+  font-size: 5em;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 2);
+}
+
+.hero .content h1 span {
+  color: rgb(182, 243, 13);
+}
+
+.hero .content p {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  line-height: 1.4;
+  font-weight: 100;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 5);
+}
+
+.hero .content .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  line-height: 2;
+  font-size: 1.4rem;
+  color: white;
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+/* About section */
+.about {
+  padding: 12rem 5% 1.4rem;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 2);
+}
+
+.about .row {
+  display: flex;
+}
+
+.about .row .about-video {
+  flex: 1 1 20rem;
+}
+
+.about .row .about-video iframe {
+  width: 100%;
+  height: 85%;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 3rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 2);
+}
+
+.about .row .content h3 span {
+  color: var(--primary);
+}
+
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 1.6;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.7);
+}
+
 /* Media Queries */
 
 /* Laptop */
@@ -101,20 +211,28 @@ body {
     right: 0;
   }
   .navbar .navbar-nav a {
-    color: var(--bg);
+    color: white;
     display: block;
     margin: 1.5rem;
     padding: 0.5rem;
     font-size: 2rem;
   }
-}
 
-.navbar .navbar-nav {
-  color: var(--bg);
-  display: block;
-  margin: 1.5rem;
-}
+  .navbar .navbar-nav {
+    color: var(--bg);
+    display: block;
+    margin: 1.5rem;
+  }
 
+  .about .row {
+    flex-wrap: wrap;
+  }
+
+  .about .row .about-video iframe {
+    height: 20rem;
+    object-fit: cover;
+  }
+}
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
